@@ -59,9 +59,14 @@ The following figure shows the general process of P-tuning v2 tuning reasoning f
 
 ## Interpretability Evaluation
 
+We construct interpretable data set of legal judgment evaluation and design the evaluation method, which can realize the interpretable evaluation of crime judgment. For the conception and design of the evaluation data set and the evaluation method, the interpretable design of the evaluation data set is mainly considered, and the selection of the corresponding evaluation method and the evaluation result can be interpreted. The overall structure of the interpretable LJP assessment data set and assessment method is shown in the figure below, where the interpretable assessment data set (E-Dataset) is obtained by manually annotating the CAIL2018 data set and the crime concept tree. The corresponding evaluation method (E-Evaluation) is based on the evaluation dataset, and the final determination is made through the repeated revision of the prompt project. Interpretability results can be seen in ` Interpretability Results` and the results of E-evluation are shown in `E-Evaluation`.
+
 <figure style="text-align: center;">
   <img src="figs/E-dataset.jpg" alt="Overview of Construction and Interpretability Evaluation of Large Language Model for Legal Judgement Prediction">
 </figure>
 
 
 ## Conclusion
+
+E-LJP can provide the basis of judgment and reasoning as an explanation while giving the verdict of the crime, thus enhancing the explainability. By means of prompt engineering and case analysis, we construct the evaluation data set and corresponding evaluation criteria, and then analyze the interpretability of the mainstream large model in the prediction task of legal decisions, and provide a basis for further optimization of the model.
+ 
