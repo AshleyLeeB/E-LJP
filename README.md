@@ -2,7 +2,7 @@
 
 <table align="center" style="border: 1px solid white;">
   <tr>
-    <td style="border: 1px solid white;"><img src="figs/swufe-logo.png" width="250"/></td>
+    <td style="border: 1px solid white;"><img src="figs/swufe-logo.jpg" width="250"/></td>
     <td style="border: 1px solid white;"><img src="figs/Ethical-logo.jpg" width="60"/></td>
   </tr>
 </table>
