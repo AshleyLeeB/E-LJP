@@ -6,7 +6,7 @@
   </tr>
 </table>
 
-The goal of legal judgment prediction (LJP) is to predict results based on facts and provide convincing explanations. This task plays a critical role in upholding fairness within the legal system. However, the conventional explainable techniques are often convoluted to grasp. Large language models have advantages such as natural language output and multi-round dialogue, enabling clearer explanation for users. The current evaluation benchmarks are limited in handling complex evidence. Therefore, there is an urgent need to develop an explainable large language model of LJP and evaluation benchmarks and methods that align with real-world judicial processes to guide and improve model development. 
+The goal of legal judgment prediction (LJP) is to predict results based on facts and provide convincing explanations. This task plays a critical role in upholding fairness within the legal system. However, the conventional explainable techniques are often convoluted to grasp. Large language models (LLMs) have advantages such as natural language output and multi-round dialogue, enabling clearer explanation for users. The current evaluation benchmarks are limited in handling complex evidence. Therefore, there is an urgent need to develop an **explainable LLM** of LJP and **evaluation benchmarks** and methods that align with real-world judicial processes to guide and improve model development. 
 
 ## Table of Contents
 1. [Overview](#overview)
