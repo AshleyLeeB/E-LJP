@@ -43,13 +43,15 @@ For the task of predicting legal judgments, the E-LJP model is positioned for th
 
 ### Model Annotations
 
-For the annotated data set of Model 1, we use the regularization matching method to annotate. As for the labeling data set of Model 2, before manual labeling, we sort out the constitutive elements of the four crimes, so as to simulate the key elements extracted by judges and lawyers when making judgments of crimes. The figure below shows a labeled dataset on theft. You can see the annotation datasets in `Model1 Annotation` and `Model2 Annotation`.
+The original data of the data annotation of the two models are from the data collected by the China Law Research Cup -- Judicial Artificial Intelligence Challenge (CAIL2018), and the data preprocessing process is shown in the `Data processing`. For the annotated data set of Model 1, we use the regularization matching method to annotate. As for the labeling data set of Model 2, before manual labeling, we sort out the constitutive elements of the four crimes, so as to simulate the key elements extracted by judges and lawyers when making judgments of crimes. The figure below shows a labeled dataset on theft. You can see the annotation datasets in `Model1 Annotation` and `Model2 Annotation`.
 
 <figure style="text-align: center;">
   <img src="figs/Annotation.jpg" alt="The annotation of Model1 and Model2">
 </figure>
 
 ### ChatGLM-6B P-Tuning
+
+The following figure shows the general process of P-tuning v2 tuning reasoning for ChatGLM-6B. First, it is necessary to construct the data set used by the fine-tuning model (including training set, verification set and test set), and then configure and run train.sh. After several hours of training, the model parameter weight file Checkpoint will be obtained. Then evaluate.sh parameter configuration and run, will get a series of test set results, here is the fine tuning part. To test the effect of the fine-tuned model on the new data, you can configure and run the cli_demo.py file. Specific configuration and fine-tuning sections are linked:[CSDN](https://blog.csdn.net/weixin_45734379/article/details/134968888?spm=1001.2014.3001.5502).
 
 <figure style="text-align: center;">
   <img src="figs/chatglm.jpg" alt="Overview of Construction and Interpretability Evaluation of Large Language Model for Legal Judgement Prediction">
