@@ -3,7 +3,6 @@
 <table align="center" style="border: 1px solid white;">
   <tr>
     <td style="border: 1px solid white;"><img src="figs/swufe-logo.jpg" width="250"/></td>
-    <td style="border: 1px solid white;"><img src="figs/Ethical-logo.jpg" width="60"/></td>
   </tr>
 </table>
 
@@ -41,14 +40,15 @@ Through the use of P-Tuning v2 technology, the ChatGLM-6B was fine-tuned to crea
 
 ### Model Annotations
 
+<figure style="text-align: center;">
+  <img src="figs/Annotation.jpg" alt="The annotation of Model1 and Model2">
+</figure>
+
 ### ChatGLM-6B P-Tuning
 
 <figure style="text-align: center;">
   <img src="figs/chatglm.jpg" alt="Overview of Construction and Interpretability Evaluation of Large Language Model for Legal Judgement Prediction">
 </figure>
-
-
-### Gradio User interaction
 
 ## Interpretability Evaluation
 
